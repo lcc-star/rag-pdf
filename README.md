@@ -22,13 +22,6 @@
 - **语言模型**：DeepSeek Chat API
 - **PDF处理**：PyMuPDF
 
-## 模型文件
-
-由于 GitHub 大小限制，模型文件未包含在仓库中。运行代码时，模型会自动从 Hugging Face 下载，或者您可以手动下载模型文件：
-
-1. 访问 https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
-2. 下载模型文件并放在 `models/models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/snapshots/86741b4e3f5cb7765a600d3a3d55a0f6a6cb443d/` 目录下
-
 ## 使用方法
 
 ### 环境配置
@@ -36,8 +29,8 @@
 1. 克隆项目并安装依赖：
 
 ```bash
-git clone [项目地址]
-cd [项目目录]
+git clone https://github.com/lcc-star/rag-pdf.git
+cd rag-pdf
 pip install -r requirements.txt
 ```
 
